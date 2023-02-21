@@ -1,0 +1,24 @@
+﻿@page
+@model CountryViewer.Pages.Continents.IndexModel
+@{
+}
+
+<h1>Continents</h1>
+
+<a asp-page="Create">Create New</a>
+
+<table class="table">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Country Count</th>
+    </tr>
+    @foreach (var continent in Model.Continents)
+    {
+        <tr>
+            <td>@continent.Id</td>
+            <td><a asp-page="/Countries/CountryByContinent" asp-route-continent="@continent.Name">@continent.Name</a></td>
+            <td>@continent.CountryCount</td>
+        </tr>
+    }
+</table>

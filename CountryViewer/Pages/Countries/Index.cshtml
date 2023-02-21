@@ -1,0 +1,27 @@
+﻿@page
+@model CountryViewer.Pages.Countries.IndexModel
+@{
+}
+
+<h1>Countries</h1>
+
+<table class="table">
+    <tr>
+        <th>Id</th>
+        <th>Code</th>
+        <th>Latitude</th>
+        <th>Longitude</th>
+        <th>Name</th>
+    </tr>
+    
+    @foreach (var country in Model.Countries)
+    {
+        <tr>
+            <td>@country.Id</td>
+            <td>@country.Code</td>
+            <td>@country.Latitude</td>
+            <td>@country.Longitude</td>
+            <td>@country.Name</td>
+        </tr>
+    }
+</table>

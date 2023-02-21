@@ -1,0 +1,57 @@
+﻿{
+   "CodeGenerationMode": 3,
+   "ContextClassName": "ApplicationDbContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": "DataContext",
+   "OutputPath": "Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "CountryViewer.DataAccess",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[Continent]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Country]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[GetContinentWithCountryCount]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[GetCountriesByContinent]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SearchCountryByName]",
+         "ObjectType": 1
+      }
+   ],
+   "UiHint": "arctech-avinash.Test.dbo",
+   "UncountableWords": null,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDateOnlyTimeOnly": false,
+   "UseDbContextSplitting": true,
+   "UseFluentApiOnly": false,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": true,
+   "UseSpatial": false,
+   "UseT4": false
+}
