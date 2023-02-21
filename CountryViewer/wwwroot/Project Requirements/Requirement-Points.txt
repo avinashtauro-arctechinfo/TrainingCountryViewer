@@ -1,0 +1,14 @@
+Create website with following pages
+1. CRUD Continent Master (4 pages) - Continent\Index, Create, Details, Delete, Edit
+	In the continent listing, display country count in last column
+	>> Done
+
+2. CRUD Country Master (4 pages) - Country\Index, Create, Details, Delete, Edit
+>> Done
+
+3. In Continent Listing (Continent\Index) when user clicks on country name, display a new page "CountryByContinent" to display all countries of selected continent 
+>> Done
+
+4. In Country Master page (Index) add a search text box. when user types any name and clicks on search button, display only those countries matching search criteria
+>> Done
+	
